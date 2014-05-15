@@ -35,14 +35,14 @@
     if (!self) return(nil);
     
     // Create a colored background (Dark Grey)
-    CCNodeColor *background = [CCNodeColor nodeWithColor:[CCColor colorWithRed:0.2f green:0.2f blue:0.2f alpha:1.0f]];
+    CCNodeColor *background = [CCNodeColor nodeWithColor:[CCColor colorWithRed:0.1f green:0.1f blue:0.1f alpha:1.0f]];
     [self addChild:background];
     
     // Hello world
-    CCLabelTTF *label = [CCLabelTTF labelWithString:@"Hello World" fontName:@"Chalkduster" fontSize:36.0f];
+    CCLabelTTF *label = [CCLabelTTF labelWithString:@"Welcome 2  \n Racing World" fontName:@"Verdana" fontSize:36.0f];
     label.positionType = CCPositionTypeNormalized;
     label.color = [CCColor redColor];
-    label.position = ccp(0.5f, 0.5f); // Middle of screen
+    label.position = ccp(0.5f, 0.7f); // Middle of screen
     [self addChild:label];
     
     // Helloworld scene button

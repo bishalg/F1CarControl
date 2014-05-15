@@ -10,4 +10,9 @@
 #import "cocos2d.h"
 
 @interface AppDelegate : CCAppDelegate
+
+#define SharedAppDelegate ((AppDelegate*)[[UIApplication sharedApplication] delegate])
+
+@property (nonatomic) CGFloat score;
+
 @end

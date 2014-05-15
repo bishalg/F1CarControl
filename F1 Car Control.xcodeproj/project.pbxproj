@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0515FE0B19205EAA0028F22F /* fuel_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 0515FE0819205EAA0028F22F /* fuel_black.png */; };
+		0515FE0C19205EAA0028F22F /* fuel_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 0515FE0919205EAA0028F22F /* fuel_green.png */; };
+		0515FE0D19205EAA0028F22F /* fuel_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 0515FE0A19205EAA0028F22F /* fuel_red.png */; };
 		051DD6CA191DC843005E4BBF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051DD6C9191DC843005E4BBF /* QuartzCore.framework */; };
 		051DD6CC191DC843005E4BBF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051DD6CB191DC843005E4BBF /* OpenGLES.framework */; };
 		051DD6CE191DC843005E4BBF /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051DD6CD191DC843005E4BBF /* OpenAL.framework */; };
@@ -212,6 +215,9 @@
 		051DD973191DC847005E4BBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 051DD972191DC847005E4BBF /* AppDelegate.m */; };
 		051DD976191DC847005E4BBF /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 051DD975191DC847005E4BBF /* HelloWorldScene.m */; };
 		051DD979191DC847005E4BBF /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 051DD978191DC847005E4BBF /* IntroScene.m */; };
+		051DD983191DCC9F005E4BBF /* bmw_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 051DD982191DCC9F005E4BBF /* bmw_5.png */; };
+		051DD986191DEEF5005E4BBF /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 051DD985191DEEF5005E4BBF /* GameOverScene.m */; };
+		051DD988191E26A0005E4BBF /* virgin_f1.png in Resources */ = {isa = PBXBuildFile; fileRef = 051DD987191E26A0005E4BBF /* virgin_f1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -225,6 +231,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0515FE0819205EAA0028F22F /* fuel_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuel_black.png; sourceTree = "<group>"; };
+		0515FE0919205EAA0028F22F /* fuel_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuel_green.png; sourceTree = "<group>"; };
+		0515FE0A19205EAA0028F22F /* fuel_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fuel_red.png; sourceTree = "<group>"; };
 		051DD6C6191DC843005E4BBF /* F1 Car Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "F1 Car Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		051DD6C9191DC843005E4BBF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		051DD6CB191DC843005E4BBF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -653,6 +662,10 @@
 		051DD975191DC847005E4BBF /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
 		051DD977191DC847005E4BBF /* IntroScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IntroScene.h; path = Classes/IntroScene.h; sourceTree = "<group>"; };
 		051DD978191DC847005E4BBF /* IntroScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IntroScene.m; path = Classes/IntroScene.m; sourceTree = "<group>"; };
+		051DD982191DCC9F005E4BBF /* bmw_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bmw_5.png; sourceTree = "<group>"; };
+		051DD984191DEEF5005E4BBF /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverScene.h; path = Classes/GameOverScene.h; sourceTree = "<group>"; };
+		051DD985191DEEF5005E4BBF /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameOverScene.m; path = Classes/GameOverScene.m; sourceTree = "<group>"; };
+		051DD987191E26A0005E4BBF /* virgin_f1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = virgin_f1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -724,6 +737,11 @@
 		051DD6E2191DC843005E4BBF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0515FE0819205EAA0028F22F /* fuel_black.png */,
+				0515FE0919205EAA0028F22F /* fuel_green.png */,
+				0515FE0A19205EAA0028F22F /* fuel_red.png */,
+				051DD982191DCC9F005E4BBF /* bmw_5.png */,
+				051DD987191E26A0005E4BBF /* virgin_f1.png */,
 				051DD6E3191DC843005E4BBF /* Default.png */,
 				051DD6E5191DC843005E4BBF /* Default@2x.png */,
 				051DD6E7191DC843005E4BBF /* Default-568h@2x.png */,
@@ -1546,6 +1564,8 @@
 				051DD975191DC847005E4BBF /* HelloWorldScene.m */,
 				051DD977191DC847005E4BBF /* IntroScene.h */,
 				051DD978191DC847005E4BBF /* IntroScene.m */,
+				051DD984191DEEF5005E4BBF /* GameOverScene.h */,
+				051DD985191DEEF5005E4BBF /* GameOverScene.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1620,16 +1640,20 @@
 			files = (
 				051DD6E6191DC843005E4BBF /* Default@2x.png in Resources */,
 				051DD6F9191DC843005E4BBF /* Icon-120.png in Resources */,
+				051DD983191DCC9F005E4BBF /* bmw_5.png in Resources */,
 				051DD8FD191DC846005E4BBF /* LICENSE_CCBReader.txt in Resources */,
 				051DD6EF191DC843005E4BBF /* Icon@2x.png in Resources */,
 				051DD701191DC843005E4BBF /* Icon-Small@2x.png in Resources */,
 				051DD6F3191DC843005E4BBF /* Icon-72@2x.png in Resources */,
 				051DD6E4191DC843005E4BBF /* Default.png in Resources */,
 				051DD6ED191DC843005E4BBF /* Icon.png in Resources */,
+				0515FE0C19205EAA0028F22F /* fuel_green.png in Resources */,
 				051DD6FB191DC843005E4BBF /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */,
 				051DD6EA191DC843005E4BBF /* Default-Landscape~ipad.png in Resources */,
 				051DD6FF191DC843005E4BBF /* Icon-Small.png in Resources */,
 				051DD6FD191DC843005E4BBF /* Icon-Small-50.png in Resources */,
+				0515FE0B19205EAA0028F22F /* fuel_black.png in Resources */,
+				051DD988191E26A0005E4BBF /* virgin_f1.png in Resources */,
 				051DD8E6191DC846005E4BBF /* LICENSE_Kazmath.txt in Resources */,
 				051DD6F1191DC843005E4BBF /* Icon-72.png in Resources */,
 				051DD83F191DC845005E4BBF /* LICENSE_cocos2d.txt in Resources */,
@@ -1638,6 +1662,7 @@
 				051DD703191DC843005E4BBF /* Icon-Spotlight-iOS7.png in Resources */,
 				051DD6F7191DC843005E4BBF /* Icon-76@2x.png in Resources */,
 				051DD96B191DC847005E4BBF /* LICENSE_Chipmunk.txt in Resources */,
+				0515FE0D19205EAA0028F22F /* fuel_red.png in Resources */,
 				051DD705191DC843005E4BBF /* Icon-Spotlight-iOS7@2x.png in Resources */,
 				051DD6F5191DC843005E4BBF /* Icon-76.png in Resources */,
 				051DD8CB191DC846005E4BBF /* ChangeLog in Resources */,
@@ -1771,6 +1796,7 @@
 				051DD72C191DC843005E4BBF /* CCAnimationCache.m in Sources */,
 				051DD8B0191DC846005E4BBF /* CCTableView.m in Sources */,
 				051DD973191DC847005E4BBF /* AppDelegate.m in Sources */,
+				051DD986191DEEF5005E4BBF /* GameOverScene.m in Sources */,
 				051DD743191DC843005E4BBF /* CCDrawingPrimitives.m in Sources */,
 				051DD834191DC845005E4BBF /* TGAlib.m in Sources */,
 				051DD800191DC845005E4BBF /* UITouch+CC.m in Sources */,
@@ -1989,6 +2015,7 @@
 				051DD97E191DC847005E4BBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		051DD97F191DC847005E4BBF /* Build configuration list for PBXNativeTarget "F1 Car Control" */ = {
 			isa = XCConfigurationList;
@@ -1997,6 +2024,7 @@
 				051DD981191DC847005E4BBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
